@@ -1,0 +1,78 @@
+TrueMarble.cs
+---------------------------------------------------------------------------------------------------------------------
+
+
+   TrueMarble used under Creative Commons license http:  creativecommons.org licenses by 3.0 us
+   Licensed by Unearthed Outdoors LLC http:  www.unearthedoutdoors.net
+
+   Change History:
+    Date        Who                 Comment
+    12-Feb-2007 Patrick Peursum     Original code for SPD361
+    26-Feb-2019 Amy Affleck         Changed to C# code to work with Linux mono
+                                                                                                                                
+
+   OVERVIEW:
+    Provide programmatic access to TrueMarble satellite imagery tiles
+    for the purposes of facilitating Google Maps-style browsing.
+    Tiles are assumed to be located in C:\Program Files\TrueMarble\
+
+   DLL INTERFACE:
+
+    int GetTileSize(out int width, out int height);
+    int GetNumTiles(int zoomLevel, out int numTilesX, out int numTilesY);
+    int GetTileImageAsRawJPG(int zoomLevel, int tileX, int tileY, out byte[] imageBuf, int bufSize, out int jpgSize);
+
+
+---------------------------------------------------------------------------------------------------------------------
+   public static int GetTileSize(out int width, out int height)
+
+   Purpose:
+    Returns the width and height of TrueMarble tiles
+
+   Parameters:
+    OUT int width - Returned tile width
+    OUT int height - Returned tile height
+
+   Returns:
+    Boolean value indicating success of call. 1 = success, 0 = failure.
+
+  ---------------------------------------------------------------------------------------------------------------------
+   public static int GetNumTiles(int zoomLevel, out int numTilesX, out int numTilesY)
+
+   Purpose:
+    Returns the number of tiles across and down that make up the
+    full Earth for a particular zoom level (resolution).
+
+   Parameters:
+    IN int zoomLevel - Zoom level. Resolution = 2^(zoom+1) km pix.
+                        ie: 0 = 2km pix, 4 = 32km pix, 6 = 128km pix.
+    OUT int numTilesX - Returned tile width
+    OUT int numTilesY - Returned tile height
+
+   Returns:
+    Boolean value indicating success of call. 1 = success, 0 = failure.
+
+
+  ---------------------------------------------------------------------------------------------------------------------
+
+   public static int GetTileImageAsRawJPG(int zoomLevel, int tileX, int tileY, out byte[] imageBuf, int bufSize, out int jpgSize)
+
+   Purpose:
+    Load a JPEG tile from the TrueMarble tileset and return it
+    to the caller. Note that the JPEG buffer is NOT uncompressed
+    into a bitmap pixmap - it is returned as raw JPEG.
+
+   Parameters:
+    IN int zoomLevel - Zoom level. Resolution = 2^(zoom+1) km pix.
+                        ie: 0 = 2km pix, 4 = 32km pix, 6 = 128km pix.
+    IN int tileX - X coordinate of tile to retrieve (0-based)
+    IN int tileY - Y coordinate of tile to retrieve (0-based)
+    IN OUT unsigned char *imageBuf - Buffer to load JPEG image into.
+                                     Must be pre-allocated by caller.
+    IN int bufSize - Maximum size of imageBuf. If the JPEG image is larger
+                     than this the tile retrieval will fail.
+    OUT int *jpgSize - Number of bytes stored in imageBuf.
+                       This is the size of the JPEG image.
+
+   Returns:
+    Boolean value indicating success of call. 1 = success, 0 = failure.
