@@ -1,0 +1,2 @@
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.csprojAssemblyReference.cache
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.csproj.CoreCompileInputs.cache
