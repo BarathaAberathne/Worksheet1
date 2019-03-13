@@ -47,7 +47,14 @@ namespace TrueMarbleData
 
         public byte[] LoadTile(int zoom, int x, int y)
         {
+            int theight = this.GetTileHeight();
+            int twidth = this.GetTileWidth();
+            int bufSize = twidth * theight * 3;
+            int jpgSize;
+            byte[] arr = new byte[bufSize];
 
+            TrueMarble.GetTileImageAsRawJPG(zoom, x, y,out arr, bufSize,out jpgSize);
+            return arr;
         }
     }
 }
