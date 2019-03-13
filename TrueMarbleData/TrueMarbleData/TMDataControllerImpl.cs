@@ -12,8 +12,9 @@ namespace TrueMarbleData
         int x;
         int y;
 
-        public TMDataControllerImpl()
+        TMDataControllerImpl()
         {
+            Console.WriteLine("New client has connected");
         }
         public int GetTileWidth()
         {

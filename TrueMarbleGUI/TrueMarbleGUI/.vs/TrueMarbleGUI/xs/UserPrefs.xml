@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{AA3B6215-153A-4936-A47F-893E76A82275}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrueMarbleGUI/Program.cs">
+    <Files>
+      <File FileName="TrueMarbleGUI/Program.cs" Line="1" Column="1" />
+      <File FileName="TrueMarbleGUI/MainWindow.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TrueMarbleGUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
