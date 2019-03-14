@@ -1,16 +1,13 @@
 ﻿using System;
 using System.ServiceModel;
+
 using TrueMarbleLibrary;
 namespace TrueMarbleData
 {
 
-    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple,UseSynchronizationContext = false,InstanceContextMode = InstanceContextMode.Single)])]
+    [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple,UseSynchronizationContext = false,InstanceContextMode = InstanceContextMode.Single)]
     internal class TMDataControllerImpl : ITMDataController
     {
-        int width;
-        int height;
-        int x;
-        int y;
 
         TMDataControllerImpl()
         {
@@ -33,6 +30,8 @@ namespace TrueMarbleData
         }
 
         public int GetNumTilesAcross(int zoom) {
+            int x;
+            int y;
             TrueMarble.GetNumTiles( zoom, out x, out y);
             return x;
 
@@ -57,5 +56,6 @@ namespace TrueMarbleData
             TrueMarble.GetTileImageAsRawJPG(zoom, x, y,out arr, bufSize,out jpgSize);
             return arr;
         }
+
     }
 }

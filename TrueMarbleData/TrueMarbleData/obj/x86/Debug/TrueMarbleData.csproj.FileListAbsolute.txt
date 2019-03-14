@@ -1,2 +1,7 @@
-/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.csprojAssemblyReference.cache
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/bin/Debug/TrueMarbleData.exe
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/bin/Debug/TrueMarbleData.pdb
 /home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.csproj.CoreCompileInputs.cache
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.csproj.CopyComplete
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.exe
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.pdb
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleData/TrueMarbleData/obj/x86/Debug/TrueMarbleData.csprojAssemblyReference.cache

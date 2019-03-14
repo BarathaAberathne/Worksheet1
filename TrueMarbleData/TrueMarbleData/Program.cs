@@ -14,13 +14,14 @@ namespace TrueMarbleData
             tcpBinding.ReaderQuotas.MaxArrayLength = System.Int32.MaxValue;
 
             host = new ServiceHost(typeof(TMDataControllerImpl));
-
-            host.AddServiceEndpoint(typeof(ITMDataController),tcpBinding, "net.tcp://localhost:50001/TMData");
+            
+            host.AddServiceEndpoint(typeof(ITMDataController),tcpBinding,"net.tcp://localhost:50001/TMData");
             try
             {
                 host.Open();
-
+                
                 Console.WriteLine("Press Enter to exit");
+
                 Console.ReadLine();
             }
             catch(Exception e)

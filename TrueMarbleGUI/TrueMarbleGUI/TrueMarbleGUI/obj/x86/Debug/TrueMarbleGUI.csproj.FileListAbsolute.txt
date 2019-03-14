@@ -1,6 +1,10 @@
 /home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/bin/Debug/TrueMarbleGUI.exe
 /home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/bin/Debug/TrueMarbleGUI.pdb
-/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/obj/x86/Debug/TrueMarbleGUI.csprojAssemblyReference.cache
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/bin/Debug/TrueMarbleData.exe
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/bin/Debug/TrueMarbleLibrary.dll
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/bin/Debug/TrueMarbleData.pdb
 /home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/obj/x86/Debug/TrueMarbleGUI.csproj.CoreCompileInputs.cache
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/obj/x86/Debug/TrueMarbleGUI.csproj.CopyComplete
 /home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/obj/x86/Debug/TrueMarbleGUI.exe
 /home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/obj/x86/Debug/TrueMarbleGUI.pdb
+/home/baaraa/Documents/Practicals/MonoDevelop/Worksheet1/TrueMarbleGUI/TrueMarbleGUI/TrueMarbleGUI/obj/x86/Debug/TrueMarbleGUI.csprojAssemblyReference.cache
